@@ -1,6 +1,8 @@
-# Snowflake-Project
-## 🚀 Project Overview
+# ❄️ Snowflake Project
+
+## 📌 Project Overview
 The **Snowflake Project** is an automated data pipeline designed to:
+
 1. **Download ZIP files** (The URL must be configured in `config.py`).
 2. **Extract `.accdb` (Access database files)**.
 3. **Read all tables from the Access database**.
@@ -8,25 +10,26 @@ The **Snowflake Project** is an automated data pipeline designed to:
 
 ---
 
-## 📥 **How to Clone the Repository**
-### **1️⃣ Clone the GitHub Repository**
+## 🔽 How to Clone the Repository
+
+### 📌 1️⃣ Clone the GitHub Repository  
 Run the following command in your **terminal (PowerShell / Command Line / Terminal)**:
 ```bash
 git clone https://github.com/ycwang15/Snowflake-Project.git
 
-### **2️⃣Then navigate to the project directory:**
+📌 2️⃣ Navigate to the Project Directory
 cd "Snowflake Project"
 
-### **3️⃣Make sure you have Python 3.8+ installed. Then, install the required dependencies:**
+📌 3️⃣ Install Dependencies
+Ensure you have Python 3.8+ installed, then run:
 pip install -r requirements.txt
 
+📌 4️⃣ Configure .env File
+⚠ Manually update the .env file and replace with actual credentials.
 
-### **4️⃣Manually update your .env file**
-⚠️ Make sure to replace your_username and your_password with actual credentials!
+📌 5️⃣ Modify config.py
+Open config.py and update the ZIP download URL:
 
-### **5️⃣Modify config.py**
-Open the config.py file and update the ZIP download URL.
-
-### **6️⃣Execute the Main Script**
-Run the following command in the terminal:
+📌 6️⃣ Run the Main Script
+Execute the following command in your terminal to start the process:
 python access_to_snowflake.py

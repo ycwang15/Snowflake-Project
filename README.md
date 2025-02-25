@@ -17,7 +17,7 @@ Run the following command in your **terminal (PowerShell / Command Line / Termin
 ```bash
 git clone https://github.com/ycwang15/Snowflake-Project.git
 
-📌 2️⃣ Navigate to the Project Directory
+### 📌 2️⃣ Navigate to the Project Directory
 cd "Snowflake Project"
 
 📌 3️⃣ Install Dependencies

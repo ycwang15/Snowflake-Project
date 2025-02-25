@@ -10,14 +10,12 @@ The **Snowflake Project** is an automated data pipeline designed to:
 
 ---
 
-## 🔽 How to Clone the Repository
 
-### 📌 1️⃣ Clone the GitHub Repository  
+📌 1️⃣ Clone the GitHub Repository  
 Run the following command in your **terminal (PowerShell / Command Line / Terminal)**:
-```bash
 git clone https://github.com/ycwang15/Snowflake-Project.git
 
-### 📌 2️⃣ Navigate to the Project Directory
+📌 2️⃣ Navigate to the Project Directory
 cd "Snowflake Project"
 
 📌 3️⃣ Install Dependencies
